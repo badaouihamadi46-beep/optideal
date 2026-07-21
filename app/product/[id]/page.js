@@ -1,5 +1,7 @@
 import { prisma } from "@/lib/prisma";
 
+export const dynamic = "force-dynamic";
+
 async function getProduct(id) {
   return prisma.product.findUnique({
     where: { id: Number(id) },
