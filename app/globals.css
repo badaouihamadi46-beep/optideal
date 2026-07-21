@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.slogan {
+  font-size: 20px;
+  color: #666;
+}
+
+.search {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.search input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.category {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px 20px 60px;
+}
+
+.card {
+  width: 280px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.score {
+  font-weight: bold;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+h2.section-title {
+  text-align: center;
+}
